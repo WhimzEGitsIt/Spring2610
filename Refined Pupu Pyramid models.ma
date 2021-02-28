@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: Refined Pupu Pyramid models.ma
-//Last modified: Sat, Feb 27, 2021 09:09:24 PM
+//Last modified: Sun, Feb 28, 2021 11:34:06 AM
 //Codeset: 1252
 requires maya "2018";
 requires "stereoCamera" "10.0";
@@ -15,15 +15,15 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "79356F42-487D-392F-06DF-90AE8932232B";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 142.1602083702135 11.652275954061245 24.849539925605608 ;
-	setAttr ".r" -type "double3" -368.73835280782515 -6035.400000005925 -8.4491862775700948e-15 ;
+	setAttr ".t" -type "double3" 104.88753249724083 12.61137446111676 252.16199419791164 ;
+	setAttr ".r" -type "double3" -357.33835280771547 -6097.8000000066904 0 ;
 	setAttr ".rp" -type "double3" 5.6843418860808015e-14 3.5527136788005009e-15 -1.4210854715202004e-14 ;
 	setAttr ".rpt" -type "double3" -8.7363630926211468e-14 -1.742707891101323e-15 -3.5898874565015418e-14 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "45964451-462E-1A23-DB11-35A09BE527A3";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 105.02570652300511;
+	setAttr ".coi" 471.32393928682092;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
