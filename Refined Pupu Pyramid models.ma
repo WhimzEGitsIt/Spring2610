@@ -1,6 +1,6 @@
 //Maya ASCII 2020 scene
 //Name: Refined Pupu Pyramid models.ma
-//Last modified: Sat, Apr 24, 2021 12:23:18 PM
+//Last modified: Sat, Apr 24, 2021 03:48:22 PM
 //Codeset: 1252
 requires maya "2020";
 requires "stereoCamera" "10.0";
@@ -12,19 +12,19 @@ fileInfo "version" "2020";
 fileInfo "cutIdentifier" "201911140446-42a737a01c";
 fileInfo "osv" "Microsoft Windows 10 Technical Preview  (Build 19042)\n";
 fileInfo "license" "student";
-fileInfo "UUID" "1C3A40B5-4DF5-C427-E509-0DAD84E4D2F3";
+fileInfo "UUID" "8A05BFAD-44C6-2EED-1C3D-FD80A6DAFC9E";
 createNode transform -s -n "persp";
 	rename -uid "79356F42-487D-392F-06DF-90AE8932232B";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 234.23148210861152 8.1078484025514221 -10.623418087295347 ;
-	setAttr ".r" -type "double3" 5.6616480335963884 -4621.0000000039654 -7.7192222187958745e-16 ;
+	setAttr ".t" -type "double3" 315.50639987106064 535.46593752688125 -183.28290313392986 ;
+	setAttr ".r" -type "double3" -50.138351966412408 -4585.400000004146 -2.5444437451708134e-14 ;
 	setAttr ".rp" -type "double3" -1.0658141036401503e-14 -8.5265128291212022e-14 4.2632564145606011e-14 ;
 	setAttr ".rpt" -type "double3" 3.0473162180858107e-14 5.6888882397327665e-14 -3.8646317623042998e-14 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "45964451-462E-1A23-DB11-35A09BE527A3";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 305.22276816182455;
+	setAttr ".coi" 631.98521923906969;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
